@@ -1,0 +1,17 @@
+/*
+
+USE DataWarehouse;
+DROP PROCEDURE IF EXISTS load_bronze;
+
+DELIMITER $$
+
+CREATE PROCEDURE load_bronze()
+BEGIN
+    SELECT 'Bronze tables loaded successfully!' AS message;
+END $$
+
+DELIMITER ;
+
+CALL load_bronze();
+
+*/
